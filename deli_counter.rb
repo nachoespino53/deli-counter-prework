@@ -16,7 +16,11 @@ def take_a_number(curr_line, name)
 end
 
 def now_serving(curr_line)
+  if curr_line.count == 0
+    puts "c"
+  else
   customer = curr_line.shift
   puts "Currently serving #{customer}."
+end
 end
 
