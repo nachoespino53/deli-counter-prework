@@ -11,5 +11,6 @@ def line(curr_line)
 end
 
 def take_a_number(curr_line, name)
-  
+  curr_line.push(name)
+  puts "Welcome, #{name}. You are number #{curr_line.count} in line."
 end
