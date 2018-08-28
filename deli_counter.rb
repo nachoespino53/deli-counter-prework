@@ -14,3 +14,9 @@ def take_a_number(curr_line, name)
   curr_line.push(name)
   puts "Welcome, #{name}. You are number #{curr_line.count} in line."
 end
+
+def now_serving(curr_line)
+  customer = curr_line.shift
+  puts "Currently serving #{customer}."
+end
+
