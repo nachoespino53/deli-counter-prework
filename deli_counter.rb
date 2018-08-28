@@ -1,1 +1,15 @@
-# Write your code here.
+def line(curr_line)
+  if curr_line.count == 0 
+    puts "The line is currently empty."
+  else
+    string = 'The line is currently:'
+    curr_line.each_with_index do |name, index|
+      string += " #{index + 1}. #{name}"
+    end
+    puts string
+  end
+end
+
+def take_a_number(curr_line, name)
+  
+end
